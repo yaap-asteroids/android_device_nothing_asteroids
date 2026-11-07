@@ -269,3 +269,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Camera
 -include hardware/nothing/camera/BoardConfigCamera.mk
+
+# Framework accepts the device remote provisioning extension.
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/duck-rkp/compatibility_matrix.xml

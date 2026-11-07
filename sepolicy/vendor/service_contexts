@@ -1,1 +1,3 @@
 # Empty - service contexts provided by device/qcom/sepolicy_vndr
+
+vendor.penguin.duckrkp.IDuckRkp/default u:object_r:hal_duck_rkp_service:s0

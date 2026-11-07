@@ -563,3 +563,6 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     wpa_supplicant \
     wpa_supplicant.conf
+
+# Hardware remote provisioning helper
+PRODUCT_PACKAGES += duck_rkp
